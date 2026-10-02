@@ -66,7 +66,7 @@
   }
   .brand:hover { opacity: 0.82; }
   .mark {
-    height: 42px;
+    height: 84px;
     width: auto;
     flex: none;
     display: block;
@@ -74,13 +74,17 @@
   .brand-name {
     font-weight: 700;
     letter-spacing: 0.2px;
-    font-size: 19px;
+    font-size: 36px;
     line-height: 1;
     padding-bottom: 0px;
     color: var(--ink-soft);
   }
-  .brand-name span { color: var(--ink); }
+  .brand-name span { color: inherit; }
   .brand:hover .brand-name { color: var(--ink); }
+  @media (max-width: 760px) {
+    .mark { height: 56px; }
+    .brand-name { font-size: 24px; }
+  }
 
   .nav {
     display: flex;
@@ -296,10 +300,8 @@
         <a href="services.html" class="active" aria-current="page">Services</a>
         <a href="articles.html">Articles</a>
         <a href="about.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
         <a href="contact.html">Contact</a>
-        <!-- Replace the href below with your Google Calendar booking link -->
-        <a href="YOUR_GOOGLE_CALENDAR_BOOKING_LINK" class="cta" target="_blank" rel="noopener">Book a consult</a>
+                <a href="https://cal.com/nathan-davis-lroryp/20min" class="cta" target="_blank" rel="noopener">Book a consult</a>
       </nav>
     </div>
 
@@ -321,9 +323,8 @@
       <p class="section-label">How we work</p>
       <h2>A clear process, start to finish.</h2>
       <div class="srow"><h3>Patent prosecution</h3><p>From invention disclosure through claim drafting, office-action responses, and issuance. We translate complex technology into claims that hold up.</p></div>
-      <div class="srow"><h3>Patent searches &amp; opinions</h3><p>Patentability searches, prior-art analysis, and freedom-to-operate opinions so you know where you stand before committing to a filing.</p></div>
-      <div class="srow"><h3>IP strategy &amp; counseling</h3><p>Portfolio audits, freedom-to-operate analysis, and roadmap planning so your protection lines up with your business goals.</p></div>
-      <div class="srow"><h3>Enforcement &amp; disputes</h3><p>Cease-and-desist letters, opposition and cancellation proceedings, and coordination with litigation counsel when it's needed.</p></div>
+      <div class="srow"><h3>Patent searches &amp; opinions</h3><p>Patentability searches and prior-art analysis so you know where you stand before committing to a filing.</p></div>
+      <div class="srow"><h3>IP strategy &amp; counseling</h3><p>Portfolio audits and roadmap planning so your protection lines up with your business goals.</p></div>
     </section>
 
     <section>
@@ -331,8 +332,7 @@
         <h2>Have an idea worth protecting?</h2>
         <p>Book a free intro consult and we'll map out your options together.</p>
         <div class="cta-row">
-          <!-- Replace the href below with your Google Calendar booking link -->
-          <a href="YOUR_GOOGLE_CALENDAR_BOOKING_LINK" class="btn btn-primary" target="_blank" rel="noopener">Book a consult</a>
+                    <a href="https://cal.com/nathan-davis-lroryp/20min" class="btn btn-primary" target="_blank" rel="noopener">Book a consult</a>
           <a href="contact.html" class="btn btn-ghost">Contact us</a>
         </div>
       </div>

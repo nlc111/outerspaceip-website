@@ -66,7 +66,7 @@
   }
   .brand:hover { opacity: 0.82; }
   .mark {
-    height: 42px;
+    height: 84px;
     width: auto;
     flex: none;
     display: block;
@@ -74,13 +74,17 @@
   .brand-name {
     font-weight: 700;
     letter-spacing: 0.2px;
-    font-size: 19px;
+    font-size: 36px;
     line-height: 1;
     padding-bottom: 0px;
     color: var(--ink-soft);
   }
-  .brand-name span { color: var(--ink); }
+  .brand-name span { color: inherit; }
   .brand:hover .brand-name { color: var(--ink); }
+  @media (max-width: 760px) {
+    .mark { height: 56px; }
+    .brand-name { font-size: 24px; }
+  }
 
   .nav {
     display: flex;
@@ -359,10 +363,8 @@
         <a href="services.html">Services</a>
         <a href="articles.html">Articles</a>
         <a href="about.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
         <a href="contact.html">Contact</a>
-        <!-- Replace the href below with your Google Calendar booking link -->
-        <a href="YOUR_GOOGLE_CALENDAR_BOOKING_LINK" class="cta" target="_blank" rel="noopener">Book a consult</a>
+                <a href="https://cal.com/nathan-davis-lroryp/20min" class="cta" target="_blank" rel="noopener">Book a consult</a>
       </nav>
     </div>
 
@@ -373,8 +375,7 @@
         <h1>Protecting the ideas<br>that get you off the ground.</h1>
         <p class="lede">Outer Space IP helps founders, inventors, and growing companies secure patents and defend what they've built. Clear advice, no jargon, and a steady hand from first filing to full portfolio.</p>
         <div class="cta-row">
-          <!-- Replace the href below with your Google Calendar booking link -->
-          <a href="contact.html" class="btn btn-primary">Start a filing</a>
+                    <a href="contact.html" class="btn btn-primary">Start a filing</a>
           <a href="services.html" class="btn btn-ghost">How we work</a>
         </div>
       </section>
@@ -422,8 +423,7 @@
         <h2>Have an idea worth protecting?</h2>
         <p>Book a free intro consult and we'll map out your options together.</p>
         <div class="cta-row">
-          <!-- Replace the href below with your Google Calendar booking link -->
-          <a href="YOUR_GOOGLE_CALENDAR_BOOKING_LINK" class="btn btn-primary" target="_blank" rel="noopener">Book a consult</a>
+                    <a href="https://cal.com/nathan-davis-lroryp/20min" class="btn btn-primary" target="_blank" rel="noopener">Book a consult</a>
           <a href="contact.html" class="btn btn-ghost">Contact us</a>
         </div>
       </div>
